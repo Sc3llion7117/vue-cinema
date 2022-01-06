@@ -1,0 +1,126 @@
+@media (max-width: 1150px) {
+    .container.series{
+        padding: 0 15px;
+    }
+    .series-mini-cards{
+        gap: 15px;
+        width: 544px;
+    }
+    .film-cards{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .coll-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .series-cards-content{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .series-mini-cards{
+    justify-content: center;
+    }
+
+    .series-main-card{
+        background-position: right;
+    }
+}
+
+@media (max-width: 650px){
+    .footer-content{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .nav-content__list{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.438);
+        z-index: 999;
+        gap: 60px;
+        transition: 800ms;
+        background: linear-gradient(0deg, rgba(0,172,255,0.35057773109243695) 0%, rgba(0,172,255,0.711922268907563) 100%, rgba(0,172,255,0.5242471988795518) 100%);
+        right: -100%;
+    }
+    .nav-content__list-link{
+        font-size: 30px;
+    }
+
+    .burger{
+        color: white;
+        font-size: 40px;
+        display: block;
+        position: absolute;
+        right: 5%;
+        z-index: 1000;
+    }
+
+    .burger:hover ~ .nav-content__list{
+        right: 0;
+    }
+
+    .series-second-card{
+        background-position: center;
+    }
+
+
+}
+
+@media (max-width:450px){
+    .header-content h1{
+        font-size: 40px;
+    }
+
+    .header-content div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .btn{
+        margin: 0;
+    }
+
+    .trailer-content img{
+        width: 100%;
+    }
+    .logo{
+        width: 70%;
+    }
+
+    .coll-card{
+        border-radius: 15px;
+
+    }    
+    .coll-card:nth-child(2){
+        background-position: center;
+    }
+    .coll-card:nth-child(3){
+        background-position: center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+    .trailer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} 
